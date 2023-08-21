@@ -77,7 +77,7 @@ export default function PivotantesPage() {
           />
           <Thumbnail
             imageUrl={pv2}
-            width={400}
+            width={600}
             height={900}
             minWidth={188}
             minHeight={300}

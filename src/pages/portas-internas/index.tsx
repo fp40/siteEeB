@@ -70,29 +70,29 @@ export default function InternasPage() {
         <div className={styles.row}>
           <Thumbnail
             imageUrl={pi1}
-            width={500}
-            height={900}
+            width={600}
+            height={1000}
             minWidth={188}
             minHeight={350}
           />
           <Thumbnail
             imageUrl={pi2}
-            width={500}
-            height={900}
+            width={600}
+            height={1000}
             minWidth={188}
             minHeight={350}
           />
           <Thumbnail
             imageUrl={pi3}
-            width={500}
-            height={900}
+            width={600}
+            height={1000}
             minWidth={188}
             minHeight={350}
           />
           <Thumbnail
             imageUrl={pi4}
-            width={500}
-            height={900}
+            width={600}
+            height={1000}
             minWidth={188}
             minHeight={350}
           />
