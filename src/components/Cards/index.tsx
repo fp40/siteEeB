@@ -3,7 +3,7 @@ import Card from './Card'
 import PvcImage from '../../../public//images/PvcCard.jpg'
 import MoveisImage from '../../../public//images/MoveisCard.png'
 import PivotantesImage from '../../../public//images/PivotantesCard.jpg'
-import MadeiraImage from '../../../public/images/MadeiraCard.jpg'
+import MadeiraImage from '../../../public/images/MadeiraContent.jpg'
 import InternasImage from '../../../public//images/InternasCards.jpg'
 import HeadShake from 'react-reveal/HeadShake'
 
@@ -15,18 +15,30 @@ const Cards = () => {
           <Card title="Esquadrias de PVC" image={PvcImage} link="/pvc" />
         </HeadShake>
         <HeadShake>
-          <Card title="Móveis Planejados" image={MoveisImage} link="#" />
+          <Card title="Móveis Planejados" image={MoveisImage} link="/moveis" />
         </HeadShake>
         <HeadShake>
-          <Card title="Portas Pivotantes" image={PivotantesImage} link="#" />
+          <Card
+            title="Portas Pivotantes"
+            image={PivotantesImage}
+            link="/portas-pivotantes"
+          />
         </HeadShake>
       </div>
       <div className={styles.cards}>
         <HeadShake>
-          <Card title="Complementos em Madeira" image={MadeiraImage} link="#" />
+          <Card
+            title="Complementos em Madeira"
+            image={MadeiraImage}
+            link="/complementos-em-madeira"
+          />
         </HeadShake>
         <HeadShake>
-          <Card title="Portas Internas" image={InternasImage} link="#" />
+          <Card
+            title="Portas Internas"
+            image={InternasImage}
+            link="/portas-internas"
+          />
         </HeadShake>
       </div>
     </div>

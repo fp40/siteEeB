@@ -7,8 +7,6 @@
   margin: 30px;
 
   img {
-    width: 290px;
-    height: 290px;
     border-radius: 10px;
     margin-bottom: 50px;
   }
@@ -21,6 +19,7 @@
     font-size: 28px;
     font-family: 'Roboto mono', sans-serif;
     transition: 0.3s;
+    color: black;
   }
 
   button:hover {

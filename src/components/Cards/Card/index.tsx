@@ -12,7 +12,13 @@ const Card: React.FC<CardProps> = ({ title, image, link }) => {
   return (
     <div className={styles.card}>
       <p className={styles.title}>{title}</p>
-      <Image priority={false} src={image} alt="Img Card" />
+      <Image
+        priority={false}
+        src={image}
+        alt="Img Card"
+        width={290}
+        height={290}
+      />
       <Link href={link}>
         <button>Saiba Mais</button>
       </Link>
