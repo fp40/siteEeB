@@ -28,6 +28,7 @@
   justify-content: center;
   padding: 40px;
   padding-top: 20px;
+  text-align: center;
 }
 
 .input {
@@ -84,4 +85,20 @@
 
 .btn:hover {
   background-color: var(--gray);
+}
+
+@media (max-width: 610px) {
+  .container {
+    margin-top: -100px;
+    margin-bottom: -100px;
+  }
+  .form {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 565px) {
+  .form {
+    transform: scale(0.7);
+  }
 }

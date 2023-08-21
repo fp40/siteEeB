@@ -55,15 +55,42 @@
   height: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 
 .text {
   font-size: 22px;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 @media (max-width: 1430px) {
   .image {
     display: none;
+  }
+}
+
+@media (max-width: 830px) {
+  .mainContent {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .content {
+    padding: 0;
+    border-radius: 0;
+  }
+  .contentText {
+    transform: scale(0.8);
+    padding: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .title {
+    font-size: 36px;
+  }
+  .text {
+    font-size: 18px;
   }
 }

@@ -120,3 +120,30 @@
     margin-top: 50px;
   }
 }
+
+@media (max-width: 665px) {
+  .content {
+    transform: scale(0.4);
+  }
+  .imagem::after {
+    top: 391px;
+  }
+}
+
+@media (max-width: 540px) {
+  .content {
+    transform: scale(0.3);
+  }
+}
+
+@media (max-width: 450px) {
+  .content {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .imagem::after {
+    width: 400px;
+  }
+}

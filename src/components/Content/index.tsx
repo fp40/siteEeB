@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './styles.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
+import Shake from 'react-reveal/Shake'
 
 interface ContentProps {
   title: string
@@ -22,7 +23,12 @@ const Content: React.FC<ContentProps> = ({
         <div className={styles.contentText}>
           <p className={styles.title}>{title}</p>
           <p className={styles.text}>{text}</p>
-          {showButton && <Link href="/#">Showroom</Link>}
+          {showButton && (
+            <Shake>
+              {' '}
+              <Link href="/#">Showroom</Link>
+            </Shake>
+          )}
         </div>
       </div>
       <div className={styles.image}>

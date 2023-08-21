@@ -12,6 +12,7 @@
   position: relative;
   display: inline-block;
   margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .dropdownContent {
@@ -20,9 +21,10 @@
   background-color: rgba(22, 43, 65, 0.8);
   border-radius: 10px;
   border: 1px solid var(--gray);
-  display: none;
+  transform: scale(0);
   position: absolute;
   z-index: 4;
+  transition: 0.3s;
 }
 
 .dropdownContent hr {
@@ -42,5 +44,5 @@
 }
 
 .dropdown:hover .dropdownContent {
-  display: block;
+  transform: scale(1);
 }

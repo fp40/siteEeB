@@ -82,3 +82,20 @@
     }
   }
 }
+
+@media (max-width: 540px) {
+  .headerContent {
+    margin-left: 0;
+    margin-right: 0;
+
+    img {
+      transform: scale(0.8);
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .headerContainer {
+    width: 400px;
+  }
+}

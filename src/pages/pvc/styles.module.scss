@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .garantia {
@@ -30,7 +31,7 @@
 }
 
 .text {
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -94,6 +95,22 @@
   margin-top: 70px;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  img {
+    padding: 10px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 922px) {
   .Comp {
     transform: scale(0.8);
@@ -103,5 +120,86 @@
   .compTitle {
     transform: scale(0.8);
     text-align: center;
+  }
+}
+
+@media (max-width: 830px) {
+  .text {
+    font-size: 19px;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+  .garantia {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .compTitle {
+    font-size: 50px;
+  }
+  .Comp {
+    transform: scale(0.6);
+    padding: 0;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    height: 800px;
+  }
+
+  .col {
+    height: 950px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+  .garantia {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .text {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+  .garantia {
+    padding: 30px;
+    margin-top: 40px;
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .compTitle {
+    font-size: 40px;
+  }
+  .Comp {
+    transform: scale(0.5);
+    padding: 0;
+    margin-top: -150px;
+
+    height: 700px;
   }
 }

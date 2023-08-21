@@ -11,19 +11,19 @@ const Drop = () => {
         </li>
         <hr />
         <li>
-          <Link href="#">Móveis Planejados</Link>
+          <Link href="/moveis">Móveis Planejados</Link>
         </li>
         <hr />
         <li>
-          <Link href="#">Portas Internas</Link>
+          <Link href="/portas-internas">Portas Internas</Link>
         </li>
         <hr className={styles.line} />
         <li>
-          <Link href="#">Portas Pivotantes</Link>
+          <Link href="/portas-pivotantes">Portas Pivotantes</Link>
         </li>
         <hr className={styles.line} />
         <li>
-          <Link href="#">Complementos Em Madeira</Link>
+          <Link href="/complementos-em-madeira">Complementos Em Madeira</Link>
         </li>
       </ul>
     </li>

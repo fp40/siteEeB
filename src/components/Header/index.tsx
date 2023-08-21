@@ -19,10 +19,10 @@ export function Header() {
           <Link type="a" href="/">
             Home
           </Link>
+          <Drop />
           <Link type="a" href="/#contato">
             Contato
           </Link>
-          <Drop />
         </nav>
 
         <div className={styles.logosHeader}>
