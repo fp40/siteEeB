@@ -1,5 +1,5 @@
 import styles from './styles.module.scss'
-import InputFile from './InputFile'
+import InputFile from '../../components/Form/InputFile'
 
 export default function Form() {
   async function handleSubmit(event: any) {
@@ -29,8 +29,8 @@ export default function Form() {
   }
   return (
     <div className={styles.container}>
-      <div className={styles.form} id="contato" onSubmit={handleSubmit}>
-        <form>
+      <div className={styles.form} id="contato">
+        <form onSubmit={handleSubmit}>
           <p className={styles.title}>SOLICITE SEU ORÇAMENTO</p>
           <input
             type="text"

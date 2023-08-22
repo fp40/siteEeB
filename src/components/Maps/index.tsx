@@ -3,8 +3,9 @@ import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api'
 import styles from './styles.module.scss'
 
 const Maps = () => {
+  const api = 'AIzaSyC7J-1TEFwGW3enM2rKXLjW0YSLX_Th9Dk'
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: api,
   })
 
   if (!isLoaded) return <div>Loading...</div>

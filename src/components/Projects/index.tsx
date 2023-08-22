@@ -7,7 +7,7 @@ interface ProjectProps {
 
 const Projects = ({ children }: ProjectProps) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="projetos">
       <p className={styles.title}>CONFIRA NOSSOS PROJETOS</p>
       {children}
     </div>

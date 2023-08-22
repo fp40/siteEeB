@@ -1,5 +1,6 @@
 import styles from './styles.module.scss'
 import AnimatedDiv from '../AnimatedDiv'
+import Link from 'next/link'
 
 const Presentation = () => {
   return (
@@ -13,7 +14,7 @@ const Presentation = () => {
               pivotantes e complementos em madeira
             </h2>
             <h3 className={styles.orcText}>Solicite seu Orçamento</h3>
-            <a href="/#">
+            <a href="#contato">
               <button className={styles.customBtn}>Gratuito</button>
             </a>
           </div>

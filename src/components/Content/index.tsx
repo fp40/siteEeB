@@ -26,7 +26,7 @@ const Content: React.FC<ContentProps> = ({
           {showButton && (
             <Shake>
               {' '}
-              <Link href="/#">Showroom</Link>
+              <Link href="#projetos">Showroom</Link>
             </Shake>
           )}
         </div>
