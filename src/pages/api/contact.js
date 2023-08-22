@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer'
 export default async function ContactAPI(req, res) {
   const { name, email, number, message } = req.body
 
-  const user = process.env.EMAIL_NODEMAILER
+  const user = 'elibioebianchinicontato@gmail.com'
 
   const data = {
     name,
@@ -18,14 +18,14 @@ export default async function ContactAPI(req, res) {
     secure: true,
     auth: {
       user: user,
-      pass: process.env.EMAIL_NODEMAILER_PSWD,
+      pass: 'rwppzmpvgbwclofc',
     },
   })
 
   try {
     const mail = await transporter.sendMail({
       from: user,
-      to: 'elibioebianchini@contato.com',
+      to: 'elibioebianchini@gmail.com',
       replyTo: email,
       subject: `Contact form submission from ${name}`,
       html: `
