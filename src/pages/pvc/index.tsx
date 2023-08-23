@@ -30,15 +30,6 @@ import p8 from '../../../public//images/p8.jpg'
 import p9 from '../../../public//images/p9.jpg'
 import p10 from '../../../public//images/p10.jpg'
 import p11 from '../../../public//images/p11.jpg'
-import p12 from '../../../public//images/IMG_20220830_155453.jpg'
-import p13 from '../../../public//images/IMG_20220830_155453.jpg'
-import p14 from '../../../public//images/IMG_20220830_155453.jpg'
-import p15 from '../../../public//images/IMG_20220830_155453.jpg'
-import p16 from '../../../public//images/IMG_20220830_155453.jpg'
-import p17 from '../../../public//images/IMG_20220830_155453.jpg'
-import p18 from '../../../public//images/IMG_20220830_155453.jpg'
-import p19 from '../../../public//images/IMG_20220830_155453.jpg'
-import p20 from '../../../public//images/IMG_20220830_155453.jpg'
 
 export default function PvcPage() {
   return (
@@ -276,6 +267,13 @@ export default function PvcPage() {
           />
         </div>
         <div className={styles.row}>
+          <Thumbnail
+            imageUrl={p11}
+            width={900}
+            height={600}
+            minWidth={300}
+            minHeight={222}
+          />
           <Thumbnail
             imageUrl={p9}
             width={1000}

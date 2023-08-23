@@ -13,16 +13,9 @@ import design from '../../../public/images/design.png'
 import durabilidade from '../../../public/images/durabilidade.png'
 import entrega from '../../../public/images/entrega.png'
 
-import p1 from '../../../public//images/IMG_20220830_155453.jpg'
-import p2 from '../../../public//images/p2.jpg'
-import p3 from '../../../public//images/p3.jpg'
-import p4 from '../../../public//images/p4.jpg'
-import p5 from '../../../public//images/p5.jpg'
-import p6 from '../../../public//images/p6.jpg'
-import p7 from '../../../public//images/p7.jpg'
-import p8 from '../../../public//images/p8.jpg'
-import p9 from '../../../public//images/p9.jpg'
-import p10 from '../../../public//images/p10.jpg'
+import mv1 from '../../../public/images/mv1.jpeg'
+import mv2 from '../../../public/images/mv2.jpeg'
+import mv3 from '../../../public/images/mv3.jpeg'
 
 export default function MoveisPage() {
   return (
@@ -67,8 +60,22 @@ export default function MoveisPage() {
       <Projects>
         <div className={styles.row}>
           <Thumbnail
-            imageUrl={p1}
+            imageUrl={mv1}
             width={1000}
+            height={600}
+            minWidth={300}
+            minHeight={222}
+          />
+          <Thumbnail
+            imageUrl={mv2}
+            width={1000}
+            height={600}
+            minWidth={300}
+            minHeight={222}
+          />
+          <Thumbnail
+            imageUrl={mv3}
+            width={900}
             height={600}
             minWidth={300}
             minHeight={222}
