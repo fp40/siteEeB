@@ -8,6 +8,7 @@ import Benefits from '../../components/Benefits'
 import logoPersonalizar from '../../../public/images/personalizarR.png'
 import Projects from '../../components/Projects'
 import Thumbnail from '../../components/Thumnail'
+import BtnWhats from '../../components/BtnWhats'
 
 import design from '../../../public/images/design.png'
 import durabilidade from '../../../public/images/durabilidade.png'
@@ -31,6 +32,11 @@ export default function MoveisPage() {
         }
         contentImage={ImageContent}
         showButton
+      />
+
+      <BtnWhats
+        title="REALIZE SEU ORÇAMENTO"
+        link="https://api.whatsapp.com/send/?phone=5551993927457&text&type=phone_number&app_absent=0"
       />
 
       <Benefits

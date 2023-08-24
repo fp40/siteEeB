@@ -24,7 +24,10 @@ export default function Home() {
       />
       <Cards />
       <Form />
-      <BtnWhats />
+      <BtnWhats
+        title="OU ENTRE EM CONTATO PELO WHATS"
+        link="https://api.whatsapp.com/send/?phone=5551991725243&text&type=phone_number&app_absent=0"
+      />
       <Maps />
     </>
   )

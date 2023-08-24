@@ -25,7 +25,7 @@ const Benefits: React.FC<BenefitsProps> = ({
       <Shake>
         <Image
           src={image}
-          alt="personalizar logo"
+          alt="benefits logo"
           priority={false}
           width={300}
           height={300}

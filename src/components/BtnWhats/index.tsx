@@ -4,18 +4,19 @@ import Image from 'next/image'
 import Shake from 'react-reveal/Shake'
 import Link from 'next/link'
 
-const BtnWhats = () => {
+interface BtnProps {
+  title: string
+  link: string
+}
+
+const BtnWhats: React.FC<BtnProps> = ({ title, link }) => {
   return (
     <div className={styles.container}>
       <Shake>
-        <Link
-          href={
-            'https://api.whatsapp.com/send/?phone=5551991725243&text&type=phone_number&app_absent=0'
-          }
-        >
+        <Link href={link}>
           <button className={styles.btn}>
             <Image src={iconWhats} alt="icone whatsapp" />
-            OU ENTRE EM CONTATO PELO WHATS
+            {title}
           </button>
         </Link>
       </Shake>
