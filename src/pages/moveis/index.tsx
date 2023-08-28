@@ -14,7 +14,7 @@ import design from '../../../public/images/design.png'
 import durabilidade from '../../../public/images/durabilidade.png'
 import entrega from '../../../public/images/entrega.png'
 
-import mv1 from '../../../public/images/mv1.jpeg'
+import mv1 from '../../../public/images/mv1.jpg'
 import mv2 from '../../../public/images/mv2.jpeg'
 import mv3 from '../../../public/images/mv3.jpeg'
 
