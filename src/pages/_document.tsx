@@ -1,11 +1,14 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { JSX } from 'react'
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
+          <meta
+            name="description"
+            content="Esquadrias em pvc, móveis planejados, portas internas, portas pivotantes e complementos em madeira em Capão da Canoa RS"
+          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"

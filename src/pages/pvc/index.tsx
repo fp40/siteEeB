@@ -17,7 +17,7 @@ import Slide from 'react-reveal/Slide'
 
 import martelosCruzados from '../../../public/images/martelos-cruzados.png'
 import durabilidade from '../../../public/images/durabilidade.png'
-import insulation from '../../../public/images/insulation-icon-26.png'
+import insulation from '../../../public/images/insulation.png'
 
 import p1 from '../../../public//images/IMG_20220830_155453.jpg'
 import p2 from '../../../public//images/p2.jpg'

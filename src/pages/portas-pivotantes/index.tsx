@@ -11,7 +11,7 @@ import Thumbnail from '../../components/Thumnail'
 
 import durabilidade from '../../../public/images/durabilidade.png'
 import logoPersonalizar from '../../../public/images/personalizarR.png'
-import insulation from '../../../public/images/insulation-icon-26.png'
+import insulation from '../../../public/images/insulation.png'
 import valorizacao from '../../../public/images/valorizacao.png'
 import suave from '../../../public/images/suave.png'
 
