@@ -20,16 +20,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           ></link>
           <link rel="icon" href="/icon.ico" />
-
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2DD54D9FP">
-          </script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-Q2DD54D9FP');
-          </script>
         </Head>
         <body>
           <Main />
