@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer'
 export default async function ContactAPI(req, res) {
   const { name, email, number, message } = req.body
 
-  const user = 'elibioebianchinicontato@gmail.com'
+  const user = 'contatoelibioebianchini@gmail.com'
 
   const data = {
     name,
@@ -18,7 +18,7 @@ export default async function ContactAPI(req, res) {
     secure: true,
     auth: {
       user: user,
-      pass: 'rwppzmpvgbwclofc',
+      pass: 'cfsoxovxjjucoxar',
     },
   })
 

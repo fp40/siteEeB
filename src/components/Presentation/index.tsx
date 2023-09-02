@@ -10,8 +10,8 @@ const Presentation = () => {
           <div>
             <h1 className={styles.title}>Elibio e Bianchini</h1>
             <h2 className={styles.subtitle}>
-              Esquadrias em pvc, móveis planejados, portas internas, portas
-              pivotantes e complementos em madeira
+              Esquadrias de pvc, móveis planejados, portas internas, portas
+              pivotantes e complementos em madeira em Capão da Canoa
             </h2>
             <h3 className={styles.orcText}>Solicite seu Orçamento</h3>
             <a href="#contato">
