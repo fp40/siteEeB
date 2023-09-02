@@ -21,8 +21,8 @@ const Content: React.FC<ContentProps> = ({
     <div className={styles.mainContent}>
       <div className={styles.content}>
         <div className={styles.contentText}>
-          <p className={styles.title}>{title}</p>
-          <p className={styles.text}>{text}</p>
+          <h2 className={styles.title}>{title}</h2>
+          <h3 className={styles.text}>{text}</h3>
           {showButton && (
             <Shake>
               {' '}

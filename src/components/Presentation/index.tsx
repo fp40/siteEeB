@@ -9,11 +9,11 @@ const Presentation = () => {
         <div className={styles.content}>
           <div>
             <h1 className={styles.title}>Elibio e Bianchini</h1>
-            <h2 className={styles.subtitle}>
+            <p className={styles.subtitle}>
               Esquadrias de pvc, móveis planejados, portas internas, portas
-              pivotantes e complementos em madeira em Capão da Canoa
-            </h2>
-            <h3 className={styles.orcText}>Solicite seu Orçamento</h3>
+              pivotantes e complementos em madeira na cidade de Capão da Canoa
+            </p>
+            <p className={styles.orcText}>Solicite seu Orçamento</p>
             <a href="#contato">
               <button className={styles.customBtn}>Gratuito</button>
             </a>

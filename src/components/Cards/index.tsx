@@ -12,7 +12,7 @@ const Cards = () => {
     <div className={styles.container}>
       <div className={styles.cards}>
         <HeadShake>
-          <Card title="Esquadrias de PVC" image={PvcImage} link="/pvc" />
+          <Card title="Esquadrias de PVC" image={PvcImage} link="/esquadrias-de-pvc" />
         </HeadShake>
         <HeadShake>
           <Card title="Móveis Planejados" image={MoveisImage} link="/moveis" />

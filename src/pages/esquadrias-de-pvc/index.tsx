@@ -230,8 +230,8 @@ export default function PvcPage() {
           />
           <Thumbnail
             imageUrl={p4}
-            width={1000}
-            height={600}
+            width={900}
+            height={700}
             minWidth={300}
             minHeight={222}
           />
@@ -240,28 +240,28 @@ export default function PvcPage() {
           <Thumbnail
             imageUrl={p5}
             width={1000}
-            height={600}
+            height={500}
             minWidth={300}
             minHeight={222}
           />
           <Thumbnail
             imageUrl={p6}
             width={1000}
-            height={600}
+            height={500}
             minWidth={300}
             minHeight={222}
           />
           <Thumbnail
             imageUrl={p7}
-            width={1000}
+            width={900}
             height={600}
             minWidth={300}
             minHeight={222}
           />
           <Thumbnail
             imageUrl={p8}
-            width={1000}
-            height={600}
+            width={900}
+            height={700}
             minWidth={300}
             minHeight={222}
           />
@@ -269,8 +269,8 @@ export default function PvcPage() {
         <div className={styles.row}>
           <Thumbnail
             imageUrl={p11}
-            width={900}
-            height={600}
+            width={800}
+            height={700}
             minWidth={300}
             minHeight={222}
           />

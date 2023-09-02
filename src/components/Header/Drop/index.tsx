@@ -7,7 +7,7 @@ const Drop = () => {
       <button className={styles.dropbtn}>Serviços</button>
       <ul className={styles.dropdownContent}>
         <li>
-          <Link href="/pvc">Esquadrias de PVC</Link>
+          <Link href="/esquadrias-de-pvc">Esquadrias de PVC</Link>
         </li>
         <hr />
         <li>

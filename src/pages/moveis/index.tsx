@@ -17,6 +17,7 @@ import entrega from '../../../public/images/entrega.png'
 import mv1 from '../../../public/images/mv1.jpg'
 import mv2 from '../../../public/images/mv2.jpeg'
 import mv3 from '../../../public/images/mv3.jpeg'
+import mv4 from '../../../public/images/mv4.png'
 
 export default function MoveisPage() {
   return (
@@ -83,6 +84,13 @@ export default function MoveisPage() {
             imageUrl={mv3}
             width={900}
             height={600}
+            minWidth={300}
+            minHeight={222}
+          />
+          <Thumbnail
+            imageUrl={mv4}
+            width={900}
+            height={700}
             minWidth={300}
             minHeight={222}
           />
